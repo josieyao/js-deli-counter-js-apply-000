@@ -25,7 +25,7 @@
 
 var katzDeliLine = [];
 
-function takeANumber(katzDeliLine, name) {
+function takeANumber(katzDeli, name) {
   katzDeliLine.push(name);
   return "Welcome, " + name + ". You are number " + katzDeliLine.length + " in line.";
 }
